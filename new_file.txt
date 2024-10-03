@@ -1,1 +1,2 @@
 Hello there!. This is my first file
+This is a new line add to the new_file.txt

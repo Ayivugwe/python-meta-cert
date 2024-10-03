@@ -18,3 +18,11 @@ with open('new_multiline_file.txt', "w") as file2:
 
 with open('new_multiline_file.txt', 'a') as file3:
     file3.write("\nThis is a new line added to the second file")
+    
+    
+# Add exception handling
+try:
+    with open('new_file.txt', 'a') as file:
+        file.write("\nThis is a new line add to the new_file.txt")
+except FileNotFoundError as e: 
+    print("ERROR", e)
