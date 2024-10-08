@@ -1,0 +1,11 @@
+Here is the difference between map() function and list comprehensions:
+
+newdata = map(square, data)
+
+newdata = [x + 3 for x in data] 
+
+Notice how both map() functions and list comprehension effectively do the same job of modifying iterator sequences such as the list in the example above.
+
+List comprehensions have been a relatively recent development but it does not necessarily mean they are more efficient. Comprehensions have gained popularity primarily for providing cleaner code readability and ease of use. They also provide some added advantages such as providing filtering using if else conditions.
+
+List comprehensions also provide direct return of a list as compared to map() function that returns a map object. It is mainly the clarity that has made list comprehensions popular, but map() functions are still arguably a better choice when it comes to the use of larger sequences.

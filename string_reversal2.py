@@ -6,4 +6,4 @@ def string_reverse(str):
     
 str = "reversal"
 reverse = string_reverse(str)
-print("Reversed is : ",reverse)
+print("Reversed is : ", reverse)
